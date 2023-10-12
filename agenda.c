@@ -16,7 +16,7 @@ void imprime(aluno a){
 	printf("Contato: %s \tTelefone:%s\n",a.contato,a.telefone);
 }
 
-int main(int argc, char *argv[]) {
+int main() {
 	aluno* alunos[MAX];	
 	int i,num;
 	
